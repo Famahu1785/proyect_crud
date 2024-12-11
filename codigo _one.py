@@ -47,7 +47,7 @@ if __name__ == '__main__':
     # Imprimir el directorio de trabajo actual
     print("Directorio de trabajo actual:", os.getcwd())
 
-    archiv_not = "proyet_crud/not_ing_2.txt"
+    archiv_not = "not_ing_2.txt"
     contenido = leer_archivo(archiv_not)
     if contenido.startswith("El archivo no se encontró") or contenido.startswith("Ocurrió un error"):
         print(contenido)
